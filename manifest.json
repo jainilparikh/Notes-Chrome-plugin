@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Research Notes",
+    "version": "0.1",
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["jquery-3.6.0.js", "content.js"]
+        }
+      ],
+      "browser_action": {
+        "default_popup": "html/popup.html",
+        "default_icon": "pencil.png"
+      },
+      "background": {
+        "scripts": ["background.js"]
+      },
+    "permissions": [
+      "storage",
+      "tabs"
+    ] 
+}  
