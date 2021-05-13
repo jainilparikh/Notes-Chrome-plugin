@@ -5,7 +5,7 @@ Most note takng applications are too complex these days.Very Distracting!
 
  Checkout my Medium article: https://jainil-parikh.medium.com/build-your-custom-notes-chrome-extension-90ac618b345e
 
- Steps to install the plugin:
+ # Steps to install
 
  1. Open Chrome settings on the top right corner and select Extensions.
 
